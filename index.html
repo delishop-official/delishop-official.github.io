@@ -107,7 +107,7 @@ section{scroll-margin-top:92px}.container{max-width:var(--max);margin:0 auto;pad
 .coupon-card img{
   width:auto;
   max-width:100%;
-  max-height:400px;
+  max-height:700px;
   margin:0 auto;
   object-fit:contain;
   border-radius:28px;
@@ -288,7 +288,7 @@ section{scroll-margin-top:92px}.container{max-width:var(--max);margin:0 auto;pad
       track.insertBefore(lastClone, originals[0]);
       track.appendChild(firstClone);
       slides = Array.from(track.querySelectorAll('.slide'));
-      physicalIndex = 1; // 첫 번째 실제 카드를 중앙에 배치하고, 좌측에는 마지막 카드 클론을 살짝 노출
+      physicalIndex = 1;
     }
 
     for (let i = 0; i < count; i += 1) {
